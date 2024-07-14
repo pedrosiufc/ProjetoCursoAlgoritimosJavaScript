@@ -1,4 +1,4 @@
-function acaoBotao(){
+function acaoBotao() {
   //variaveis internas a função
   var valor1, valor2, resultado, operacao;
 
@@ -10,18 +10,18 @@ function acaoBotao(){
     case "+":
       resultado = parseInt(valor1) + parseInt(valor2)
       break;
-      case "-":
-        resultado = parseInt(valor1) - parseInt(valor2)
-        break;
-        case "*":
-          resultado = parseInt(valor1) * parseInt(valor2)
-          break;
-          case "/":
-            resultado = parseInt(valor1) / parseInt(valor2)
-            break;
+    case "-":
+      resultado = parseInt(valor1) - parseInt(valor2)
+      break;
+    case "*":
+      resultado = parseInt(valor1) * parseInt(valor2)
+      break;
+    case "/":
+      resultado = parseInt(valor1) / parseInt(valor2)
+      break;
 
   }
-document.getElementById("paragrafo").innerText = resultado
+  document.getElementById("paragrafo").innerText = resultado
 
 }
 
